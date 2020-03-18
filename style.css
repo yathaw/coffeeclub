@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div#header{
+	margin: 0 500px;
+}
+
+div#header h1{
+	font-family: 'GreatVibes-Regular';
+	font-size: 50px;
+	padding-top: 50px;
+}
+
+div#header img{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+#navbar{
+	width: 100%;
+	background: #4E342E;
+}
+
+.nav_ul{
+	padding-left: 50px;
+}
+
+#navbar .nav_ul li{
+	list-style: none;
+	float: left;
+}
+
+#navbar .nav_ul li a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 50px;
+	display: block;
+	text-transform: uppercase;
+	font-family: JosefinSans-Bold;
+}
+
+
+#navbar .nav_ul li a:hover, .active{
+	background-color: #5D4037;
+}
+
+div#slider img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+div.quote{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	top: 45%;
+	left: 32%;
+	padding: 30px;
+	font-family:Myanmar3,Yunghkio;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
